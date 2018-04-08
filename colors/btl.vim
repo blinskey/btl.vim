@@ -51,8 +51,8 @@ hi! Visual ctermbg=238
 " TODO: Make this stand out more?
 hi! MatchParen ctermbg=234 ctermfg=251 cterm=bold
 
-hi! VertSplit ctermbg=232 ctermfg=246
-hi! StatusLine ctermbg=234 ctermfg=251
+hi! VertSplit ctermbg=246 ctermfg=232 cterm=none
+hi! StatusLine ctermbg=251 ctermfg=236 cterm=none
 hi! link StatusLineNC VertSplit
 hi! link TabLine VertSplit
 hi! link TabLineFill VertSplit
