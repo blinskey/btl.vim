@@ -70,7 +70,6 @@ hi! PMenuSbar ctermbg=246 ctermfg=246
 hi! link ModeMsg Normal
 hi! link NonText Normal
 
-" Links
 hi! link Character String
 hi! link Constant Normal
 hi! link Number Normal
