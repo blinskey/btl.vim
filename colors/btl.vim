@@ -39,7 +39,7 @@ highlight clear
 
 hi Normal ctermbg=234 ctermfg=251
 hi! Comment ctermfg=244
-hi! String ctermbg=234 ctermfg=251 cterm=italic
+hi! String ctermbg=234 ctermfg=251 cterm=bold
 hi! Tag ctermfg=251 cterm=bold
 hi! Underlined ctermfg=251 cterm=underline
 hi! Error ctermfg=167 ctermbg=234
