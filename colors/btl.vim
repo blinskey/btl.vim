@@ -103,3 +103,11 @@ hi! link ErrorMsg Error
 hi! link Directory String
 
 hi! link gitcommitOverflow Error
+
+hi! link helpHyperTextJump String
+
+hi! link ALEError Error
+hi! ALEWarning ctermbg=234 ctermfg=110 cterm=none
+hi! ALEInfo ctermbg=234 ctermfg=114 cterm=none
+hi! link ALEStyleError ALEError
+hi! link ALEStyleWarning ALEWarning
