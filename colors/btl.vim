@@ -7,7 +7,7 @@
 " - Cursor improvements?
 " - Make line numbers more subtle
 " - General cleanup, organization, and general improvements to robustness
-" - Add unset groups, esp. ALE, diff, quickfix window
+" - Add unset groups, esp. diff, quickfix window
 " - Consider adding some toggleable, subtle, grayscale syntax highlighting.
 
 let g:colors_name="btl"
@@ -56,9 +56,8 @@ hi! StatusLine ctermbg=251 ctermfg=236 cterm=none
 hi! link StatusLineNC VertSplit
 hi! link TabLine VertSplit
 hi! link TabLineFill VertSplit
-hi! link TabLineFill VertSplit
-hi! TabLineSel ctermbg=232 ctermfg=246 cterm=bold
-hi! link Title TabLineSel
+hi! TabLineSel ctermbg=246 ctermfg=232 cterm=reverse,bold
+hi! link Title VertSplit
 hi! Folded ctermbg=234 ctermfg=244 cterm=italic
 hi! IncSearch ctermbg=234 ctermfg=251 cterm=underline,bold,italic
 hi! Search ctermbg=234 ctermfg=251 cterm=underline,bold,italic
