@@ -106,8 +106,8 @@ hi! link gitcommitOverflow Error
 
 hi! link helpHyperTextJump String
 
-hi! link ALEError Error
-hi! ALEWarning ctermbg=234 ctermfg=110 cterm=none
-hi! ALEInfo ctermbg=234 ctermfg=114 cterm=none
+hi! ALEError ctermbg=234 ctermfg=167 cterm=reverse
+hi! ALEWarning ctermbg=234 ctermfg=110 cterm=reverse
+hi! ALEInfo ctermbg=234 ctermfg=114 cterm=reverse
 hi! link ALEStyleError ALEError
 hi! link ALEStyleWarning ALEWarning
