@@ -2,21 +2,18 @@
 " Maintainer: Benjamin Linskey <vim@linskey.org>
 " URL: https://github.com/blinskey/btl.vim
 
-" Grayscale colors used here:
+" Colors used here:
 "
-" 234 -- black background
-" 251 -- white text, statusline
-" 236 -- gray ColorColumn
-" 235 -- dark gray cursorline
-" 238 -- gray visual highlight
-" 232 -- black: various UI elements
-" 246 -- gray: various UI elements
-"
-" A few subtle colors that could be added:
-"
-" 167 -- red: error
-" 110 -- blue: warning
-" 114 -- green: info
+" 110 -- blue
+" 114 -- green
+" 167 -- red
+" 232 -- black
+" 234 -- black
+" 235 -- dark gray
+" 236 -- gray
+" 238 -- gray
+" 246 -- gray
+" 251 -- white
 "
 " See h: group-name, highlight-groups
 

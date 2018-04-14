@@ -9,3 +9,4 @@ TODO
 - Make cursorline more visible.
 - Fix HTML problems.
 - Fix problems identified by the check_colors.vim script.
+- Make tabline color identical to active statusline color?
