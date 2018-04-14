@@ -1,7 +1,24 @@
 " btl.vim colorscheme
 " Maintainer: Benjamin Linskey <vim@linskey.org>
 " URL: https://github.com/blinskey/btl.vim
-" License: ISC
+
+" Grayscale colors used here:
+"
+" 234 -- black background
+" 251 -- white text, statusline
+" 236 -- gray ColorColumn
+" 235 -- dark gray cursorline
+" 238 -- gray visual highlight
+" 232 -- black: various UI elements
+" 246 -- gray: various UI elements
+"
+" A few subtle colors that could be added:
+"
+" 167 -- red: error
+" 110 -- blue: warning
+" 114 -- green: info
+"
+" See h: group-name, highlight-groups
 
 if &t_Co < 256
     echoerr "Colorscheme requires 256-color terminal"
@@ -14,26 +31,6 @@ if exists("syntax_on")
 endif
 
 let g:colors_name="btl"
-
-" Grayscale colors used here:
-"
-" 234 -- black background
-" 251 -- white text, statusline
-" 236 -- gray ColorColumn
-" 235 -- dark gray cursorline
-" 238 -- gray visual highlight
-" 232 -- black -- various UI elements
-" 246 -- gray -- various UI elements
-"
-" A few subtle colors that could be added:
-"
-" 167 -- red
-" 110 -- blue
-" 114 -- green
-"
-" (167 is currently used for the Error group.)
-
-" See h: group-name, highlight-groups
 
 hi Normal ctermbg=234 ctermfg=251
 hi! Comment ctermfg=244
