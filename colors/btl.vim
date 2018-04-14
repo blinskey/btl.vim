@@ -10,12 +10,17 @@
 " - Add unset groups, esp. diff, quickfix window
 " - Consider adding some toggleable, subtle, grayscale syntax highlighting.
 
-let g:colors_name="btl"
-
-syntax reset
+if &t_Co < 256
+    echoerr "Colorscheme requires 256-color terminal"
+endif
 
 set background=dark
 highlight clear
+if exists("syntax_on")
+    syntax reset
+endif
+
+let g:colors_name="btl"
 
 " Grayscale colors used here:
 "
