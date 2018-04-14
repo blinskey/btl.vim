@@ -33,34 +33,34 @@ endif
 let g:colors_name="btl"
 
 hi Normal ctermbg=234 ctermfg=251
-hi! Comment ctermfg=244
-hi! String ctermbg=234 ctermfg=251 cterm=bold
-hi! Tag ctermfg=251 cterm=bold
-hi! Underlined ctermfg=251 cterm=underline
-hi! Error ctermfg=167 ctermbg=234
-hi! Todo ctermfg=251 ctermbg=234 cterm=bold
-hi! ColorColumn ctermbg=236
-hi! CursorLine ctermbg=235 cterm=none
-hi! Visual ctermbg=238
+hi Comment ctermfg=244
+hi String ctermbg=234 ctermfg=251 cterm=bold
+hi Tag ctermfg=251 cterm=bold
+hi Underlined ctermfg=251 cterm=underline
+hi Error ctermfg=167 ctermbg=234
+hi Todo ctermfg=251 ctermbg=234 cterm=bold
+hi ColorColumn ctermbg=236
+hi CursorLine ctermbg=235 cterm=none
+hi Visual ctermbg=238
 
 " TODO: Make this stand out more?
-hi! MatchParen ctermbg=234 ctermfg=251 cterm=bold
+hi MatchParen ctermbg=234 ctermfg=251 cterm=bold
 
-hi! VertSplit ctermbg=246 ctermfg=232 cterm=none
-hi! StatusLine ctermbg=251 ctermfg=236 cterm=none
+hi VertSplit ctermbg=246 ctermfg=232 cterm=none
+hi StatusLine ctermbg=251 ctermfg=236 cterm=none
 hi! link StatusLineNC VertSplit
 hi! link TabLine VertSplit
 hi! link TabLineFill VertSplit
-hi! TabLineSel ctermbg=246 ctermfg=232 cterm=reverse,bold
+hi TabLineSel ctermbg=246 ctermfg=232 cterm=reverse,bold
 hi! link Title VertSplit
-hi! Folded ctermbg=234 ctermfg=244 cterm=italic
-hi! IncSearch ctermbg=234 ctermfg=251 cterm=underline,bold,italic
-hi! Search ctermbg=234 ctermfg=251 cterm=underline,bold,italic
-hi! LineNr ctermbg=234 ctermfg=244
-hi! CursorLineNr ctermbg=234 ctermfg=251 cterm=bold
-hi! Pmenu ctermbg=246 ctermfg=234
-hi! PmenuSel ctermbg=235 ctermfg=251 cterm=bold
-hi! PMenuSbar ctermbg=246 ctermfg=246
+hi Folded ctermbg=234 ctermfg=244 cterm=italic
+hi IncSearch ctermbg=234 ctermfg=251 cterm=underline,bold,italic
+hi Search ctermbg=234 ctermfg=251 cterm=underline,bold,italic
+hi LineNr ctermbg=234 ctermfg=244
+hi CursorLineNr ctermbg=234 ctermfg=251 cterm=bold
+hi Pmenu ctermbg=246 ctermfg=234
+hi PmenuSel ctermbg=235 ctermfg=251 cterm=bold
+hi PMenuSbar ctermbg=246 ctermfg=246
 hi! link ModeMsg Normal
 hi! link NonText Normal
 
@@ -100,8 +100,8 @@ hi! link gitcommitOverflow Error
 
 hi! link helpHyperTextJump String
 
-hi! ALEError ctermbg=234 ctermfg=167 cterm=reverse
-hi! ALEWarning ctermbg=234 ctermfg=110 cterm=reverse
-hi! ALEInfo ctermbg=234 ctermfg=114 cterm=reverse
+hi ALEError ctermbg=234 ctermfg=167 cterm=reverse
+hi ALEWarning ctermbg=234 ctermfg=110 cterm=reverse
+hi ALEInfo ctermbg=234 ctermfg=114 cterm=reverse
 hi! link ALEStyleError ALEError
 hi! link ALEStyleWarning ALEWarning
