@@ -24,13 +24,13 @@ if &t_Co < 256
     echoerr "Colorscheme requires 256-color terminal"
 endif
 
+let g:colors_name="btl"
+
 set background=dark
 highlight clear
 if exists("syntax_on")
     syntax reset
 endif
-
-let g:colors_name="btl"
 
 hi Normal ctermbg=234 ctermfg=251
 hi Comment ctermfg=244
