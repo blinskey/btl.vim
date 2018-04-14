@@ -32,76 +32,73 @@ if exists("syntax_on")
     syntax reset
 endif
 
-hi Normal ctermbg=234 ctermfg=251
-hi Comment ctermfg=244
-hi String ctermbg=234 ctermfg=251 cterm=bold
-hi Tag ctermfg=251 cterm=bold
-hi Underlined ctermfg=251 cterm=underline
-hi Error ctermfg=167 ctermbg=234
-hi Todo ctermfg=251 ctermbg=234 cterm=bold
-hi ColorColumn ctermbg=236
-hi CursorLine ctermbg=235 cterm=none
-hi Visual ctermbg=238
+hi Normal       ctermfg=251     ctermbg=234
+hi Comment      ctermfg=244
+hi String       ctermfg=251     ctermbg=234     cterm=bold
+hi Tag          ctermfg=251                     cterm=bold
+hi Underlined   ctermfg=251                     cterm=underline
+hi Error        ctermfg=167     ctermbg=234
+hi Todo         ctermfg=251     ctermbg=234     cterm=bold
+hi ColorColumn                  ctermbg=236
+hi CursorLine                   ctermbg=235     cterm=none
+hi Visual                       ctermbg=238
+hi MatchParen   ctermfg=251     ctermbg=234     cterm=bold
+hi VertSplit    ctermfg=232     ctermbg=246     cterm=none
+hi StatusLine   ctermfg=236     ctermbg=251     cterm=none
+hi TabLineSel   ctermfg=232     ctermbg=246     cterm=reverse,bold
+hi Folded       ctermfg=244     ctermbg=234     cterm=italic
+hi IncSearch    ctermfg=251     ctermbg=234     cterm=underline,bold,italic
+hi Search       ctermfg=251     ctermbg=234     cterm=underline,bold,italic
+hi LineNr       ctermfg=244     ctermbg=234
+hi CursorLineNr ctermfg=251     ctermbg=234     cterm=bold
+hi Pmenu        ctermfg=234     ctermbg=246
+hi PmenuSel     ctermfg=251     ctermbg=235     cterm=bold
+hi PMenuSbar    ctermfg=246     ctermbg=246
 
-" TODO: Make this stand out more?
-hi MatchParen ctermbg=234 ctermfg=251 cterm=bold
-
-hi VertSplit ctermbg=246 ctermfg=232 cterm=none
-hi StatusLine ctermbg=251 ctermfg=236 cterm=none
-hi! link StatusLineNC VertSplit
-hi! link TabLine VertSplit
-hi! link TabLineFill VertSplit
-hi TabLineSel ctermbg=246 ctermfg=232 cterm=reverse,bold
-hi! link Title VertSplit
-hi Folded ctermbg=234 ctermfg=244 cterm=italic
-hi IncSearch ctermbg=234 ctermfg=251 cterm=underline,bold,italic
-hi Search ctermbg=234 ctermfg=251 cterm=underline,bold,italic
-hi LineNr ctermbg=234 ctermfg=244
-hi CursorLineNr ctermbg=234 ctermfg=251 cterm=bold
-hi Pmenu ctermbg=246 ctermfg=234
-hi PmenuSel ctermbg=235 ctermfg=251 cterm=bold
-hi PMenuSbar ctermbg=246 ctermfg=246
-hi! link ModeMsg Normal
-hi! link NonText Normal
-
-hi! link Character String
-hi! link Constant Normal
-hi! link Number Normal
-hi! link Boolean Normal
-hi! link Float Normal
-hi! link Function Normal
-hi! link Identifier Normal
-hi! link Keyword Normal
-hi! link Statement Normal
-hi! link Conditional Normal
-hi! link Repeat Normal
-hi! link Label Normal
-hi! link Operator Normal
-hi! link Exception Normal
-hi! link PreProc Normal
-hi! link Include Normal
-hi! link Define Normal
-hi! link Macro Normal
-hi! link PreCondit Normal
-hi! link Type Normal
-hi! link StorageClass Normal
-hi! link Structure Normal
-hi! link Typedef Normal
-hi! link Special Normal
-hi! link SpecialChar Normal
-hi! link Delimiter Normal
+hi! link StatusLineNC   VertSplit
+hi! link TabLine        VertSplit
+hi! link TabLineFill    VertSplit
+hi! link Title          VertSplit
+hi! link ModeMsg        Normal
+hi! link NonText        Normal
+hi! link Character      String
+hi! link Constant       Normal
+hi! link Number         Normal
+hi! link Boolean        Normal
+hi! link Float          Normal
+hi! link Function       Normal
+hi! link Identifier     Normal
+hi! link Keyword        Normal
+hi! link Statement      Normal
+hi! link Conditional    Normal
+hi! link Repeat         Normal
+hi! link Label          Normal
+hi! link Operator       Normal
+hi! link Exception      Normal
+hi! link PreProc        Normal
+hi! link Include        Normal
+hi! link Define         Normal
+hi! link Macro          Normal
+hi! link PreCondit      Normal
+hi! link Type           Normal
+hi! link StorageClass   Normal
+hi! link Structure      Normal
+hi! link Typedef        Normal
+hi! link Special        Normal
+hi! link SpecialChar    Normal
+hi! link Delimiter      Normal
 hi! link SpecialComment Normal
-hi! link Debug Normal
-hi! link Ignore Normal
-hi! link ErrorMsg Error
-hi! link Directory String
+hi! link Debug          Normal
+hi! link Ignore         Normal
+hi! link ErrorMsg       Error
+hi! link Directory      String
 
 hi! link gitcommitOverflow Error
 
 hi! link helpHyperTextJump String
 
-hi ALEError ctermbg=234 ctermfg=167 cterm=reverse
-hi ALEWarning ctermbg=234 ctermfg=110 cterm=reverse
-hi ALEInfo ctermbg=234 ctermfg=114 cterm=reverse
+hi ALEError     ctermfg=167     ctermbg=234     cterm=reverse
+hi ALEWarning   ctermfg=110     ctermbg=234     cterm=reverse
+hi ALEInfo      ctermfg=114     ctermbg=234     cterm=reverse
 hi! link ALEStyleError ALEError
 hi! link ALEStyleWarning ALEWarning
