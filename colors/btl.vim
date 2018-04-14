@@ -41,8 +41,8 @@ hi CursorLine                   ctermbg=235     cterm=none
 hi Visual                       ctermbg=238
 hi MatchParen   ctermfg=251     ctermbg=234     cterm=bold
 hi VertSplit    ctermfg=232     ctermbg=246     cterm=none
-hi StatusLine   ctermfg=236     ctermbg=251     cterm=none
-hi TabLineSel   ctermfg=232     ctermbg=246     cterm=reverse,bold
+hi StatusLine   ctermfg=236     ctermbg=251     cterm=bold
+hi TabLineSel   ctermfg=232     ctermbg=251     cterm=reverse,bold
 hi Folded       ctermfg=244     ctermbg=234     cterm=italic
 hi IncSearch    ctermfg=251     ctermbg=234     cterm=underline,bold,italic
 hi Search       ctermfg=251     ctermbg=234     cterm=underline,bold,italic
@@ -53,8 +53,8 @@ hi PmenuSel     ctermfg=251     ctermbg=235     cterm=bold
 hi PMenuSbar    ctermfg=246     ctermbg=246
 
 hi! link StatusLineNC   VertSplit
-hi! link TabLine        VertSplit
-hi! link TabLineFill    VertSplit
+hi! link TabLine        StatusLine
+hi! link TabLineFill    StatusLine
 hi! link Title          VertSplit
 hi! link ModeMsg        Normal
 hi! link NonText        Normal
