@@ -3,13 +3,6 @@
 " URL: https://github.com/blinskey/btl.vim
 " License: ISC
 
-" TODO:
-" - Cursor improvements?
-" - Make line numbers more subtle
-" - General cleanup, organization, and general improvements to robustness
-" - Add unset groups, esp. diff, quickfix window
-" - Consider adding some toggleable, subtle, grayscale syntax highlighting.
-
 if &t_Co < 256
     echoerr "Colorscheme requires 256-color terminal"
 endif
