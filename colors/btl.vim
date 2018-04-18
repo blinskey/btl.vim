@@ -4,9 +4,10 @@
 
 " Colors used here:
 "
-" 110 -- blue
+" 110 -- blue (currently unused)
 " 114 -- green
 " 167 -- red
+" 208 -- orange
 " 232 -- black
 " 234 -- black
 " 235 -- dark gray
@@ -95,7 +96,7 @@ hi! link gitcommitOverflow Error
 hi! link helpHyperTextJump String
 
 hi ALEError     ctermfg=167     ctermbg=234     cterm=reverse
-hi ALEWarning   ctermfg=110     ctermbg=234     cterm=reverse
+hi ALEWarning   ctermfg=208     ctermbg=234     cterm=reverse
 hi ALEInfo      ctermfg=114     ctermbg=234     cterm=reverse
 hi! link ALEStyleError ALEError
 hi! link ALEStyleWarning ALEWarning
