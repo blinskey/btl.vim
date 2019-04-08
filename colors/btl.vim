@@ -2,19 +2,7 @@
 " Maintainer: Benjamin Linskey <vim@linskey.org>
 " URL: https://github.com/blinskey/btl.vim
 
-" Colors used here:
-"
-" 110 -- blue (currently unused)
-" 114 -- green
-" 167 -- red
-" 208 -- orange
-" 232 -- black
-" 234 -- black
-" 235 -- dark gray
-" 236 -- gray
-" 238 -- gray
-" 246 -- gray
-" 251 -- white
+" This is a simple, mostly grayscale colorscheme.
 "
 " See h: group-name, highlight-groups
 
