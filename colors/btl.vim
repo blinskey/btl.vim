@@ -31,13 +31,13 @@ if exists("syntax_on")
 endif
 
 hi Normal       ctermfg=251     ctermbg=234
-hi Comment      ctermfg=244
+hi Comment      ctermfg=245
 hi String       ctermfg=251     ctermbg=234     cterm=bold
 hi Tag          ctermfg=251                     cterm=bold
 hi Underlined   ctermfg=251                     cterm=underline
 hi Error        ctermfg=167     ctermbg=234
 hi Todo         ctermfg=251     ctermbg=234     cterm=bold
-hi ColorColumn                  ctermbg=236
+hi ColorColumn                  ctermbg=237
 hi CursorLine                   ctermbg=235     cterm=none
 hi Visual                       ctermbg=238
 hi MatchParen   ctermfg=251     ctermbg=234     cterm=bold
