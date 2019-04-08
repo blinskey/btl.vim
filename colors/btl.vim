@@ -40,6 +40,10 @@ hi CursorLineNr ctermfg=251     ctermbg=234     cterm=bold
 hi Pmenu        ctermfg=234     ctermbg=246
 hi PmenuSel     ctermfg=251     ctermbg=235     cterm=bold
 hi PMenuSbar    ctermfg=246     ctermbg=246
+hi DiffAdd      ctermfg=green   ctermbg=234     cterm=bold
+hi DiffChange   ctermfg=blue    ctermbg=234
+hi DiffDelete   ctermfg=red     ctermbg=234     cterm=bold
+hi DiffText     ctermfg=yellow  ctermbg=234     cterm=bold
 
 hi! link StatusLineNC   VertSplit
 hi! link TabLine        StatusLine
