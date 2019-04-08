@@ -91,6 +91,7 @@ hi! link Debug          Normal
 hi! link Ignore         Normal
 hi! link ErrorMsg       Error
 hi! link Directory      String
+hi! link Title          Normal
 
 hi! link gitcommitOverflow Error
 
