@@ -83,6 +83,7 @@ hi! link StorageClass   Normal
 hi! link Structure      Normal
 hi! link Typedef        Normal
 hi! link Special        Normal
+hi! link SpecialKey     Normal
 hi! link SpecialChar    Normal
 hi! link Delimiter      Normal
 hi! link SpecialComment Normal
