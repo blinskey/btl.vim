@@ -31,7 +31,7 @@ if exists("syntax_on")
 endif
 
 hi Normal       ctermfg=251     ctermbg=234
-hi Comment      ctermfg=245
+hi Comment      ctermfg=246
 hi String       ctermfg=251     ctermbg=234     cterm=bold
 hi Tag          ctermfg=251                     cterm=bold
 hi Underlined   ctermfg=251                     cterm=underline
