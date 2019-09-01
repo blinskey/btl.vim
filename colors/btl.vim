@@ -48,6 +48,7 @@ hi DiffChange	ctermfg=3		ctermbg=0		cterm=bold
 hi DiffDelete	ctermfg=1		ctermbg=0		cterm=bold
 hi DiffText		ctermfg=3		ctermbg=0		cterm=bold,underline
 hi SpecialKey	ctermfg=13		ctermbg=0		cterm=bold
+hi EndOfBuffer	ctermfg=8	ctermbg=0	cterm=none
 
 hi! link TabLineFill    TabLine
 hi! link VertSplit      StatusLineNC
