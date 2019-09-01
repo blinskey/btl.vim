@@ -21,8 +21,8 @@ if exists("syntax_on")
 endif
 
 hi Normal		ctermfg=7		ctermbg=0		cterm=none
-hi Comment		ctermfg=4		ctermbg=0		cterm=italic
-hi String		ctermfg=2		ctermbg=0		cterm=none
+hi Comment		ctermfg=7		ctermbg=0		cterm=italic
+hi String		ctermfg=7		ctermbg=0		cterm=bold
 hi Tag			ctermfg=7		ctermbg=0		cterm=bold
 hi Underlined	ctermfg=7		ctermbg=0		cterm=underline
 hi Error		ctermfg=1		ctermbg=0		cterm=none
