@@ -29,7 +29,7 @@ hi Error		ctermfg=1		ctermbg=0		cterm=none
 hi Todo			ctermfg=7		ctermbg=0		cterm=bold
 hi ColorColumn	ctermfg=none	ctermbg=8		cterm=none
 hi CursorLine	ctermfg=none	ctermbg=none	cterm=underline
-hi Visual		ctermfg=0		ctermbg=4		cterm=none
+hi Visual		ctermfg=none	ctermbg=none	cterm=reverse
 hi MatchParen	ctermfg=15		ctermbg=0		cterm=bold
 hi StatusLine	ctermfg=0		ctermbg=7		cterm=bold
 hi StatusLineNC	ctermfg=7		ctermbg=8		cterm=none
