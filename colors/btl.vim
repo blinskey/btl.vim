@@ -31,10 +31,10 @@ hi ColorColumn	ctermfg=none	ctermbg=8		cterm=none
 hi CursorLine	ctermfg=none	ctermbg=none	cterm=underline
 hi Visual		ctermfg=0		ctermbg=5		cterm=none
 hi MatchParen	ctermfg=15		ctermbg=0		cterm=bold
-hi StatusLine	ctermfg=0		ctermbg=12		cterm=bold
-hi StatusLineNC	ctermfg=0       ctermbg=7       cterm=none
-hi TabLine		ctermfg=0       ctermbg=7       cterm=none
-hi TabLineSel	ctermfg=0		ctermbg=4		cterm=bold
+hi StatusLine	ctermfg=0		ctermbg=7		cterm=bold
+hi StatusLineNC	ctermfg=7       ctermbg=8       cterm=none
+hi TabLine		ctermfg=7       ctermbg=8       cterm=none
+hi TabLineSel	ctermfg=0		ctermbg=15		cterm=bold
 hi Folded		ctermfg=13		ctermbg=0		cterm=italic
 hi IncSearch	ctermfg=0		ctermbg=3		cterm=bold
 hi Search		ctermfg=0		ctermbg=3		cterm=bold
@@ -49,11 +49,11 @@ hi DiffDelete	ctermfg=1		ctermbg=0		cterm=bold
 hi DiffText		ctermfg=3		ctermbg=0		cterm=bold,underline
 hi SpecialKey	ctermfg=11		ctermbg=0		cterm=bold
 
-hi! link TabLine        TabLineFill
-hi! link StatusLineNC   VertSplit
+hi! link TabLineFill    TabLine
+hi! link VertSplit      StatusLineNC
 hi! link NonText        SpecialKey
 hi! link CursorLineNr   LineNr
-hi! link Title			VertSplit
+hi! link Title			StatusLineNC
 hi! link ModeMsg		Normal
 hi! link Character		String
 hi! link Constant		Normal
