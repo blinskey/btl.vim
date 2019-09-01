@@ -47,7 +47,7 @@ hi DiffAdd		ctermfg=2		ctermbg=0		cterm=bold
 hi DiffChange	ctermfg=3		ctermbg=0		cterm=bold
 hi DiffDelete	ctermfg=1		ctermbg=0		cterm=bold
 hi DiffText		ctermfg=3		ctermbg=0		cterm=bold,underline
-hi SpecialKey	ctermfg=11		ctermbg=0		cterm=bold
+hi SpecialKey	ctermfg=13		ctermbg=0		cterm=bold
 
 hi! link TabLineFill    TabLine
 hi! link VertSplit      StatusLineNC
