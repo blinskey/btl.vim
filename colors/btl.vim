@@ -26,7 +26,7 @@ hi String		ctermfg=7		ctermbg=0		cterm=bold
 hi Tag			ctermfg=7		ctermbg=0		cterm=bold
 hi Underlined	ctermfg=7		ctermbg=0		cterm=underline
 hi Error		ctermfg=1		ctermbg=0		cterm=none
-hi Todo			ctermfg=4		ctermbg=0		cterm=bold
+hi Todo			ctermfg=7		ctermbg=0		cterm=bold
 hi ColorColumn	ctermfg=none	ctermbg=8		cterm=none
 hi CursorLine	ctermfg=none	ctermbg=none	cterm=underline
 hi Visual		ctermfg=0		ctermbg=5		cterm=none
