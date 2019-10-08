@@ -7,10 +7,6 @@
 "
 " See h: group-name, highlight-groups
 
-if &t_Co < 256
-	echoerr "Colorscheme requires 256-color terminal"
-endif
-
 let g:colors_name="btl"
 
 set notermguicolors
