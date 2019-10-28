@@ -7,11 +7,11 @@
 "
 " See h: group-name, highlight-groups
 
-let g:colors_name="btl"
-
 set notermguicolors
 set background=dark
 highlight clear
+let g:colors_name="btl"
+
 if exists("syntax_on")
 	syntax reset
 endif
