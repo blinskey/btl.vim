@@ -32,8 +32,8 @@ hi StatusLineNC	ctermfg=7	ctermbg=8	cterm=none
 hi TabLine	ctermfg=7	ctermbg=8	cterm=none
 hi TabLineSel	ctermfg=0	ctermbg=15	cterm=bold
 hi Folded	ctermfg=13	ctermbg=0	cterm=italic
-hi IncSearch	ctermfg=0	ctermbg=3	cterm=bold
-hi Search	ctermfg=0	ctermbg=3	cterm=bold
+hi IncSearch	ctermfg=7	ctermbg=0	cterm=reverse
+hi Search	ctermfg=7	ctermbg=0	cterm=reverse
 hi LineNr	ctermfg=8	ctermbg=0	cterm=none
 hi Pmenu	ctermfg=0	ctermbg=13	cterm=none
 hi PmenuSel	ctermfg=2	ctermbg=0	cterm=bold
