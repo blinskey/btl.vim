@@ -15,7 +15,6 @@ if exists("syntax_on")
 	syntax reset
 endif
 
-hi ColorColumn	ctermfg=none	ctermbg=8	cterm=none
 hi CursorLine	ctermfg=none	ctermbg=none	cterm=underline
 
 if &background == "dark"
@@ -37,6 +36,7 @@ if &background == "dark"
 	hi DiffText	ctermfg=3	ctermbg=0	cterm=underline
 	hi Visual	ctermfg=none	ctermbg=none	cterm=reverse
 	hi Search	ctermfg=none	ctermbg=none	cterm=reverse
+	hi ColorColumn	ctermfg=none	ctermbg=8	cterm=none
 else
 	hi Normal	ctermfg=0	ctermbg=15	cterm=none
 	hi Tag		ctermfg=0	ctermbg=15	cterm=none
@@ -58,6 +58,7 @@ else
 	hi DiffDelete	ctermfg=1	ctermbg=15	cterm=none
 	hi DiffText	ctermfg=3	ctermbg=15	cterm=underline
 	hi Search	ctermfg=7	ctermbg=8	cterm=none
+	hi ColorColumn	ctermfg=none	ctermbg=7	cterm=none
 endif
 
 hi! link TabLine	StatusLineNC
