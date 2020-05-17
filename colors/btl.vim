@@ -16,9 +16,7 @@ if exists("syntax_on")
 endif
 
 hi ColorColumn	ctermfg=none	ctermbg=8	cterm=none
-hi Visual	ctermfg=none	ctermbg=none	cterm=reverse
 hi CursorLine	ctermfg=none	ctermbg=none	cterm=underline
-hi Search	ctermfg=none	ctermbg=none	cterm=reverse
 
 if &background == "dark"
 	hi Normal	ctermfg=7	ctermbg=0	cterm=none
@@ -26,10 +24,8 @@ if &background == "dark"
 	hi Underlined	ctermfg=7	ctermbg=0	cterm=underline
 	hi Error	ctermfg=1	ctermbg=0	cterm=none
 	hi MatchParen	ctermfg=15	ctermbg=8	cterm=none
-	hi StatusLine	ctermfg=0	ctermbg=7	cterm=none
+	hi StatusLine	ctermfg=0	ctermbg=15	cterm=none
 	hi StatusLineNC	ctermfg=7	ctermbg=8	cterm=none
-	hi TabLine	ctermfg=7	ctermbg=8	cterm=none
-	hi TabLineSel	ctermfg=0	ctermbg=15	cterm=none
 	hi Folded	ctermfg=7	ctermbg=8	cterm=none
 	hi LineNr	ctermfg=8	ctermbg=0	cterm=none
 	hi Pmenu	ctermfg=15	ctermbg=8	cterm=none
@@ -39,30 +35,33 @@ if &background == "dark"
 	hi DiffChange	ctermfg=3	ctermbg=0	cterm=none
 	hi DiffDelete	ctermfg=1	ctermbg=0	cterm=none
 	hi DiffText	ctermfg=3	ctermbg=0	cterm=underline
+	hi Visual	ctermfg=none	ctermbg=none	cterm=reverse
+	hi Search	ctermfg=none	ctermbg=none	cterm=reverse
 else
-	hi Normal	ctermfg=0	ctermbg=7	cterm=none
+	hi Normal	ctermfg=0	ctermbg=15	cterm=none
 	hi Tag		ctermfg=0	ctermbg=15	cterm=none
-	hi Underlined	ctermfg=0	ctermbg=7	cterm=underline
-	hi Error	ctermfg=1	ctermbg=7	cterm=none
+	hi Underlined	ctermfg=0	ctermbg=15	cterm=underline
+	hi Error	ctermfg=1	ctermbg=15	cterm=none
 	hi ColorColumn	ctermfg=none	ctermbg=8	cterm=none
 	hi CursorLine	ctermfg=none	ctermbg=none	cterm=underline
-	hi Visual	ctermfg=none	ctermbg=none	cterm=reverse
-	hi MatchParen	ctermfg=0	ctermbg=15	cterm=none
-	hi StatusLine	ctermfg=7	ctermbg=0	cterm=none
-	hi StatusLineNC	ctermfg=7	ctermbg=8	cterm=none
-	hi TabLine	ctermfg=7	ctermbg=8	cterm=none
-	hi TabLineSel	ctermfg=0	ctermbg=15	cterm=bold
-	hi Folded	ctermfg=8	ctermbg=7	cterm=none
+	hi Visual	ctermfg=0	ctermbg=7	cterm=none
+	hi MatchParen	ctermfg=0	ctermbg=7	cterm=none
+	hi StatusLine	ctermfg=7	ctermbg=8	cterm=none
+	hi StatusLineNC	ctermfg=0	ctermbg=7	cterm=none
+	hi Folded	ctermfg=8	ctermbg=15	cterm=none
 	hi LineNr	ctermfg=7	ctermbg=8	cterm=none
 	hi Pmenu	ctermfg=0	ctermbg=15	cterm=none
 	hi PmenuSel	ctermfg=15	ctermbg=8	cterm=none
 	hi PMenuThumb	ctermfg=8	ctermbg=8	cterm=none
-	hi DiffAdd	ctermfg=2	ctermbg=7	cterm=none
-	hi DiffChange	ctermfg=3	ctermbg=7	cterm=none
-	hi DiffDelete	ctermfg=1	ctermbg=7	cterm=none
-	hi DiffText	ctermfg=3	ctermbg=7	cterm=underline
+	hi DiffAdd	ctermfg=2	ctermbg=15	cterm=none
+	hi DiffChange	ctermfg=3	ctermbg=15	cterm=none
+	hi DiffDelete	ctermfg=1	ctermbg=15	cterm=none
+	hi DiffText	ctermfg=3	ctermbg=15	cterm=underline
+	hi Search	ctermfg=7	ctermbg=8	cterm=none
 endif
 
+hi! link TabLine	StatusLineNC
+hi! link TabLineSel	StatusLine
 hi! link EndOfBuffer	Normal
 hi! link SpecialKey	Normal
 hi! link PMenuSBar	Pmenu
