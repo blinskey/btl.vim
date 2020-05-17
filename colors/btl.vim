@@ -16,6 +16,7 @@ if exists("syntax_on")
 endif
 
 hi CursorLine	ctermfg=none	ctermbg=none	cterm=underline
+hi Visual	ctermfg=none	ctermbg=none	cterm=reverse
 
 if &background == "dark"
 	hi Normal	ctermfg=7	ctermbg=0	cterm=none
@@ -34,7 +35,6 @@ if &background == "dark"
 	hi DiffChange	ctermfg=3	ctermbg=0	cterm=none
 	hi DiffDelete	ctermfg=1	ctermbg=0	cterm=none
 	hi DiffText	ctermfg=3	ctermbg=0	cterm=underline
-	hi Visual	ctermfg=none	ctermbg=none	cterm=reverse
 	hi Search	ctermfg=none	ctermbg=none	cterm=reverse
 	hi ColorColumn	ctermfg=none	ctermbg=8	cterm=none
 else
@@ -44,7 +44,6 @@ else
 	hi Error	ctermfg=1	ctermbg=15	cterm=none
 	hi ColorColumn	ctermfg=none	ctermbg=8	cterm=none
 	hi CursorLine	ctermfg=none	ctermbg=none	cterm=underline
-	hi Visual	ctermfg=0	ctermbg=7	cterm=none
 	hi MatchParen	ctermfg=0	ctermbg=7	cterm=none
 	hi StatusLine	ctermfg=7	ctermbg=8	cterm=none
 	hi StatusLineNC	ctermfg=0	ctermbg=7	cterm=none
