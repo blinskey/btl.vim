@@ -8,7 +8,6 @@
 " See h: group-name, highlight-groups
 
 set notermguicolors
-set background=dark
 highlight clear
 let g:colors_name="btl"
 
@@ -16,36 +15,61 @@ if exists("syntax_on")
 	syntax reset
 endif
 
-hi Normal	ctermfg=7	ctermbg=0	cterm=none
-hi Comment	ctermfg=7	ctermbg=0	cterm=italic
-hi String	ctermfg=7	ctermbg=0	cterm=bold
-hi Tag		ctermfg=7	ctermbg=0	cterm=bold
-hi Underlined	ctermfg=7	ctermbg=0	cterm=underline
-hi Error	ctermfg=1	ctermbg=0	cterm=none
-hi Todo		ctermfg=7	ctermbg=0	cterm=bold
 hi ColorColumn	ctermfg=none	ctermbg=8	cterm=none
-hi CursorLine	ctermfg=none	ctermbg=none	cterm=underline
 hi Visual	ctermfg=none	ctermbg=none	cterm=reverse
-hi MatchParen	ctermfg=15	ctermbg=0	cterm=bold
-hi StatusLine	ctermfg=0	ctermbg=7	cterm=bold
-hi StatusLineNC	ctermfg=7	ctermbg=8	cterm=none
-hi TabLine	ctermfg=7	ctermbg=8	cterm=none
-hi TabLineSel	ctermfg=0	ctermbg=15	cterm=bold
-hi Folded	ctermfg=13	ctermbg=0	cterm=italic
-hi IncSearch	ctermfg=7	ctermbg=0	cterm=reverse
-hi Search	ctermfg=7	ctermbg=0	cterm=reverse
-hi LineNr	ctermfg=8	ctermbg=0	cterm=none
-hi Pmenu	ctermfg=0	ctermbg=13	cterm=none
-hi PmenuSel	ctermfg=2	ctermbg=0	cterm=bold
-hi PMenuSbar	ctermfg=8	ctermbg=8	cterm=none
-hi PMenuThumb	ctermfg=7	ctermbg=7	cterm=none
-hi DiffAdd	ctermfg=2	ctermbg=0	cterm=bold
-hi DiffChange	ctermfg=3	ctermbg=0	cterm=bold
-hi DiffDelete	ctermfg=1	ctermbg=0	cterm=bold
-hi DiffText	ctermfg=3	ctermbg=0	cterm=bold,underline
-hi SpecialKey	ctermfg=13	ctermbg=0	cterm=bold
-hi EndOfBuffer	ctermfg=8	ctermbg=0	cterm=none
+hi CursorLine	ctermfg=none	ctermbg=none	cterm=underline
+hi Search	ctermfg=none	ctermbg=none	cterm=reverse
 
+if &background == "dark"
+	hi Normal	ctermfg=7	ctermbg=0	cterm=none
+	hi Tag		ctermfg=15	ctermbg=0	cterm=none
+	hi Underlined	ctermfg=7	ctermbg=0	cterm=underline
+	hi Error	ctermfg=1	ctermbg=0	cterm=none
+	hi MatchParen	ctermfg=15	ctermbg=8	cterm=none
+	hi StatusLine	ctermfg=0	ctermbg=7	cterm=none
+	hi StatusLineNC	ctermfg=7	ctermbg=8	cterm=none
+	hi TabLine	ctermfg=7	ctermbg=8	cterm=none
+	hi TabLineSel	ctermfg=0	ctermbg=15	cterm=none
+	hi Folded	ctermfg=7	ctermbg=8	cterm=none
+	hi LineNr	ctermfg=8	ctermbg=0	cterm=none
+	hi Pmenu	ctermfg=15	ctermbg=8	cterm=none
+	hi PmenuSel	ctermfg=8	ctermbg=15	cterm=none
+	hi PMenuThumb	ctermfg=15	ctermbg=15	cterm=none
+	hi DiffAdd	ctermfg=2	ctermbg=0	cterm=none
+	hi DiffChange	ctermfg=3	ctermbg=0	cterm=none
+	hi DiffDelete	ctermfg=1	ctermbg=0	cterm=none
+	hi DiffText	ctermfg=3	ctermbg=0	cterm=underline
+else
+	hi Normal	ctermfg=0	ctermbg=7	cterm=none
+	hi Tag		ctermfg=0	ctermbg=15	cterm=none
+	hi Underlined	ctermfg=0	ctermbg=7	cterm=underline
+	hi Error	ctermfg=1	ctermbg=7	cterm=none
+	hi ColorColumn	ctermfg=none	ctermbg=8	cterm=none
+	hi CursorLine	ctermfg=none	ctermbg=none	cterm=underline
+	hi Visual	ctermfg=none	ctermbg=none	cterm=reverse
+	hi MatchParen	ctermfg=0	ctermbg=15	cterm=none
+	hi StatusLine	ctermfg=7	ctermbg=0	cterm=none
+	hi StatusLineNC	ctermfg=7	ctermbg=8	cterm=none
+	hi TabLine	ctermfg=7	ctermbg=8	cterm=none
+	hi TabLineSel	ctermfg=0	ctermbg=15	cterm=bold
+	hi Folded	ctermfg=8	ctermbg=7	cterm=none
+	hi LineNr	ctermfg=7	ctermbg=8	cterm=none
+	hi Pmenu	ctermfg=0	ctermbg=15	cterm=none
+	hi PmenuSel	ctermfg=15	ctermbg=8	cterm=none
+	hi PMenuThumb	ctermfg=8	ctermbg=8	cterm=none
+	hi DiffAdd	ctermfg=2	ctermbg=7	cterm=none
+	hi DiffChange	ctermfg=3	ctermbg=7	cterm=none
+	hi DiffDelete	ctermfg=1	ctermbg=7	cterm=none
+	hi DiffText	ctermfg=3	ctermbg=7	cterm=underline
+endif
+
+hi! link EndOfBuffer	Normal
+hi! link SpecialKey	Normal
+hi! link PMenuSBar	Pmenu
+hi! link IncSearch	Search
+hi! link Comment	Normal
+hi! link String		Normal
+hi! link Todo		Underlined
 hi! link TabLineFill	TabLine
 hi! link VertSplit	StatusLineNC
 hi! link NonText	SpecialKey
