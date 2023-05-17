@@ -19,7 +19,7 @@ hi CursorLine	ctermfg=none	ctermbg=none	cterm=underline
 hi Visual	ctermfg=none	ctermbg=none	cterm=reverse
 
 if &background == "dark"
-	hi Normal	ctermfg=7	ctermbg=0	cterm=none
+	hi Normal	ctermfg=15	ctermbg=0	cterm=none
 	hi Underlined	ctermfg=7	ctermbg=0	cterm=underline
 	hi Error	ctermfg=9	ctermbg=0	cterm=none
 	hi MatchParen	ctermfg=15	ctermbg=8	cterm=none
