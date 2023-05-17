@@ -20,7 +20,6 @@ hi Visual	ctermfg=none	ctermbg=none	cterm=reverse
 
 if &background == "dark"
 	hi Normal	ctermfg=7	ctermbg=0	cterm=none
-	hi Tag		ctermfg=15	ctermbg=0	cterm=none
 	hi Underlined	ctermfg=7	ctermbg=0	cterm=underline
 	hi Error	ctermfg=1	ctermbg=0	cterm=none
 	hi MatchParen	ctermfg=15	ctermbg=8	cterm=none
@@ -39,7 +38,6 @@ if &background == "dark"
 	hi ColorColumn	ctermfg=none	ctermbg=8	cterm=none
 else
 	hi Normal	ctermfg=0	ctermbg=15	cterm=none
-	hi Tag		ctermfg=0	ctermbg=15	cterm=none
 	hi Underlined	ctermfg=0	ctermbg=15	cterm=underline
 	hi Error	ctermfg=1	ctermbg=15	cterm=none
 	hi ColorColumn	ctermfg=none	ctermbg=8	cterm=none
@@ -60,6 +58,7 @@ else
 	hi ColorColumn	ctermfg=none	ctermbg=7	cterm=none
 endif
 
+hi! link Tag		Underlined
 hi! link TabLine	StatusLineNC
 hi! link TabLineSel	StatusLine
 hi! link EndOfBuffer	Normal
